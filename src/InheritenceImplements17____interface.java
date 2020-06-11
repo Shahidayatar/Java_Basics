@@ -4,6 +4,21 @@ public class InheritenceImplements17____interface {
         // instead of InheritenceImplements17___part2
         callme.hello();
 
+
+
+        InheritenceImplements17___part3 callme1 = new InheritenceImplements17___part3() {  // look at the output
+            @Override
+            public void hello() {
+                System.out.println("hiiiiii");
+            }
+
+            @Override
+            public void hi() {
+                System.out.println("helloss");
+
+            }
+        };
+        callme1.hello();
 // remeber Interface is an example of abstract class
 
     }

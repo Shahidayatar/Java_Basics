@@ -30,13 +30,11 @@ public class ArrayList__21 {
         numbers.add(2);
         numbers.add(7);
         numbers.add(1);
+
         System.out.println(numbers);
         Collections.sort(numbers);
 
         System.out.println(numbers);
-
-
-
 
 
     }
